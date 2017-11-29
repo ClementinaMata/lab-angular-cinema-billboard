@@ -1,0 +1,16 @@
+.show-movies img{
+  width: 200px;
+  height: 300px;
+  margin: 10px auto;
+
+
+}
+
+.show-movies {
+  width: 18%;
+  display: inline-block;
+  text-align:center;
+  padding:10px;
+  font-size:12px;
+
+}
