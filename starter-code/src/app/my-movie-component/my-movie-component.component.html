@@ -1,14 +1,19 @@
-<p>my-movie-component works!</p>
+<!-- <p>my-movie-component works!</p> -->
 
-
-
-<div class = "show-movies" *ngFor="let ernes of cristial">
-<h2>{{ernes.title}}</h2>
-Date: {{ernes.hours}}<br>
-Room: {{ernes.room}} <br>
-Year: {{ernes.year}} <br>
-Director: {{ernes.director}} <br>
-Actors: {{ernes.actor}} <br>
-Hour: {{ernes.hour}} <br>
-<a href="/movie/:id"><img src="{{ernes.poster}}" alt=""   width= "200px" height= "300px"></a>
+<div class="show-movies">
+  <div class="img-movie" *ngFor="let ernes of cristial">
+    <img src="{{ernes.poster}}" alt=""   width= "350" height= "450px"><br>
+    <button><a href="/home">Go back</a></button>
+  </div>
+  <div class = "show-info" *ngFor="let ernes of cristial">
+    <h2>{{ernes.title}}</h2>
+    <p><b>Date:</b> {{ernes.hours}}</p>
+    <p><b>Room:</b> {{ernes.room}}</p>
+    <p><b>Year:</b> {{ernes.year}}</p>
+    <p><b>Director:</b> {{ernes.director}}</p>
+    <p><b>Actors:</b> {{ernes.actors}}</p>
+    <p><b>Hour:</b> {{ernes.hours}}</p>
+    <p><b>Genre:</b> {{ernes.genres}}</p>
+    <p><b>Synopsis:</b> {{ernes.synopsis}}</p>
+  </div>
 </div>

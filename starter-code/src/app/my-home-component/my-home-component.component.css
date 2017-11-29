@@ -14,3 +14,20 @@
   font-size:12px;
 
 }
+
+.show-movies button {
+  width: 200px;
+  height: 30px;
+  background-color: darkgrey;
+}
+
+
+.show-movies button a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.show-movies button a:visited{
+    text-decoration: none;
+    color: black;
+}

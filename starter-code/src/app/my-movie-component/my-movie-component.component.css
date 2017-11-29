@@ -1,0 +1,32 @@
+.show-movies {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 60px;
+
+}
+
+.show-info {
+  margin-left: 90px;
+  margin-top: 40px;
+  width: 600px
+}
+
+
+.img-movie button {
+  width: 350px;
+  height: 30px;
+  background-color: darkgrey;
+  text-decoration: none;
+  color: black;
+}
+
+
+.img-movie button a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.img-movie button a:visited{
+    text-decoration: none;
+    color: black;
+}

@@ -1,9 +1,10 @@
-<h1>{{title}}</h1>
+<div class="title-home">
+  <h1>{{title}}</h1>
+</div>
 
-<ul>
-<li><a [routerLink]="['home']">home</a></li>
-<li><a [routerLink]="['movie/:id']">movie</a></li>
-
-</ul>
+<!-- <ul>
+<a [routerLink]="['home']">Home page</a>
+<a [routerLink]="['movie/:id']">Go to movies</a>
+</ul> -->
 
 <router-outlet></router-outlet>
