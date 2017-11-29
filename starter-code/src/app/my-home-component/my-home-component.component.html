@@ -2,5 +2,5 @@
 
 
 <div class = "show-movies" *ngFor="let juan of this.pepe.movies">
-<h2>{{juan.title}}</h2> Date: {{juan.hours}}<br> Room: {{juan.room}} <img src="{{juan.poster}}" alt="">
+<h2>{{juan.title}}</h2> Date: {{juan.hours}}<br> Room: {{juan.room}} <a [routerLink]="['..','movie',juan.id]"><img src="{{juan.poster}}" alt=""></a>
 </div>
